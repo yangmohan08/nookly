@@ -1,0 +1,18 @@
+/* Custom Branding for Nookly */
+:root {
+    --nookly-navy: #0A1D37;
+    --nookly-teal: #14B8A6;
+}
+
+header img {
+    transition: transform 0.3s ease;
+}
+
+header img:hover {
+    transform: scale(1.05);
+}
+
+/* Smooth scrolling for navigation */
+html {
+    scroll-behavior: smooth;
+}
